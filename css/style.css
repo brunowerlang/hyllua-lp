@@ -39,6 +39,22 @@ section {
 }
 
 /* HERO */
+
+.hero .logo {
+
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+
+  .hero .logo {
+
+  width: 95%;
+  margin: 0 auto;
+}
+}
+
     .hero {
       background: url('/assets/images/hero/BACKGROUND-SEÇÃO-1.jpg') no-repeat center center/cover;
       display: flex;
@@ -123,7 +139,7 @@ display: block;
 
 .btn-1-mobile {
   position: absolute;
-  bottom: 0;
+  bottom: -60px;
   left: 50%;
   transform: translateX(-50%) !important;
   white-space: nowrap;
@@ -181,7 +197,7 @@ margin: auto;
       align-items: center;
        overflow: hidden;
        padding: 5rem 0 10rem 0 !important;
-   margin-bottom: -180px;
+   margin-bottom: -220px;
 }
 
 .sobre-imersao h5 {
@@ -282,13 +298,13 @@ z-index: 99;
   font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--branco);
-font-size: 25px;
+font-size: 24px;
 line-height: 40px;
 position: relative;
 
 }
 
-
+@media (min-width: 992px) {
 .tecnica li p::before {
     content: "";
     position: absolute;
@@ -299,6 +315,22 @@ position: relative;
     background-image: url(/assets/images/tecnica/ÍCONE-ESTRELA.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+}
+
+@media (max-width: 991px) {
+
+  .tecnica li p::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/images/tecnica/ÍCONE-ESTRELA.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 }
 
 
@@ -371,6 +403,8 @@ padding: 10rem 0;
     font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--branco);
+
+
 
 
 }
