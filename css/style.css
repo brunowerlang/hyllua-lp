@@ -1,0 +1,133 @@
+
+/* CORES */
+
+:root {
+  --azul-escuro: #1e2c5c;
+  --amarelo: #e6ad7b;
+  --azul-claro: #3957a6;
+  --branco: #f3f2ef;
+  --cinza: #efefee;
+}
+
+
+/* FONTS */
+@font-face {
+  font-family: 'PPRightGothicWide';
+  src: url('/fonts/Right-Gothic/PPRightGothic-WideRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPRightGothicWide';
+  src: url('/fonts/Right-Gothic/PPRightGothic-WideLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPRightGothicWide';
+  src: url('/fonts/Right-Gothic/PPRightGothic-WideBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+section {
+
+  display: block !important; 
+}
+
+/* HERO */
+    .hero {
+      background: url('/assets/images/hero/BACKGROUND-SEÇÃO-1.jpg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+
+    }
+
+
+    .fs-1 {
+      line-height:40px;
+      font-size: 28px !important;
+    }
+
+    .hero p {
+       font-size: 18px;
+      letter-spacing: 1px;
+      font-family: 'PPRightGothicWide';
+      color: var(--branco);
+      font-weight: 300;
+      letter-spacing: -.5px;
+    }
+
+ 
+.hero-content {
+    height: 100%;
+
+}
+
+    .hero-img {
+  max-width: 100%;
+  height: auto;
+    }
+
+    .bullets {
+      display: flex;
+      gap: 3rem;
+         justify-content: center;
+         align-items: center;
+    }
+
+    @media (min-width: 768px) {
+      .bullets {
+        flex-direction: row;
+      }
+    }
+
+    .bullet-box {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 1rem;
+      text-align: center;
+      font-size: 17px;
+      border: 1px solid var(--amarelo);
+      width: 220px;
+      height: 120px;
+       font-family: 'PPRightGothicWide';
+       font-weight: 300;
+        color: var(--branco);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          position: relative;
+    }
+
+    .btn-1 {
+      border: none;
+      font-family: 'PPRightGothicWide';
+      font-weight: 700;
+      transition: background-color 0.3s;
+      background-color: var(--amarelo);
+      border-bottom: 5px solid var(--azul-escuro);
+      display: inline-flex;
+      font-size: 18px;
+      padding: .8rem 2.5rem;
+      color: var(--azul-escuro);
+      text-decoration: none;
+      border-radius: 10px;
+    }
+
+    .btn-1:hover {}
+
+
+    .bullet-box::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 27px;
+    width: 40px;
+    height: 40px;
+    background-image: url('/assets/images/hero/ÍCONE ESTRELA + CÍRCULO.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
