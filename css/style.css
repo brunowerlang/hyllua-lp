@@ -48,7 +48,7 @@ section {
 
 
     .fs-1 {
-      line-height:40px;
+      line-height:35px;
       font-size: 25px !important;
     }
 
@@ -141,4 +141,135 @@ display: block;
     background-image: url('/assets/images/hero/ÍCONE ESTRELA + CÍRCULO.png');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+
+/* SECTION 2 */
+
+.section-2 {
+
+  background-color: var(--amarelo);
+}
+
+.section-2 p {
+margin: auto;
+  color: var(--branco);
+  text-align: center;
+  font-size: 30px;
+  font-family: 'PPRightGothicWide';
+  line-height: 45px;
+  font-weight: 400;
+  letter-spacing: -.5px;
+}
+
+.custom-width {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .custom-width {
+    width: 50%;
+  }
+}
+
+
+/* SORBE IMERSÃO */
+
+.sobre-imersao {
+  background: url('/assets/images/sobre-imersao/BACKGROUND-SEÇÃO-2.jpg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+       overflow: hidden;
+       padding: 5rem 0 !important;
+}
+
+.sobre-imersao h5 {
+
+  border: 1px solid var(--azul-escuro);
+  display: inline-flex;
+  padding: 1rem 2rem;
+  border-radius: 99px;
+    font-family: 'PPRightGothicWide';
+    font-weight: 700;
+    color: var(--azul-escuro);
+    font-size: 18px;
+}
+
+.sobre-imersao li p {
+font-family: 'PPRightGothicWide';
+    font-weight: 400;
+font-size: 16px;
+text-align: justify;
+line-height: 35px;
+    color: var(--azul-escuro);
+}
+
+.sobre-imersao li {
+position: relative;
+z-index: 99;
+  padding: 0 6rem;
+}
+
+
+  .btn-2 {
+  border: none;
+  font-family: 'PPRightGothicWide';
+  font-weight: 700;
+  transition: all 0.3s ease; /* Adiciona suavidade à transformação */
+  background-color: var(--azul-escuro);
+  border-bottom: 5px solid var(--amarelo);
+  display: inline-flex;
+  font-size: 15px;
+  padding: 0.8rem 2.5rem;
+  color: var(--branco);
+  text-decoration: none;
+  border-radius: 10px;
+  transform: translateY(0); /* Estado inicial */
+  z-index: 999;
+  position: relative;
+}
+
+.btn-2:hover {
+  transform: translateY(-4px); /* Sobe 4px suavemente */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Opcional: sombra para realce */
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+ 
+}
+
+.image-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -75%;
+    width: 200%;
+    height: 200%;
+    background-image: url(/assets/images/sobre-imersao/ÍCONE-ESTRELA.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    opacity: 1;
+}
+
+/* TECNICA */
+
+.tecnica {
+  background: url('/assets/images/tecnica/BACKGROUND\ SEÇÃO\ 3.jpg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+       position: relative;
+       z-index: 9999;
+    padding: 15rem 0 !important;
+}
+
+.tecnica li p {
+  font-family: 'PPRightGothicWide';
+  font-weight: 700;
+  color: var(--branco);
+
 }
