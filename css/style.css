@@ -49,11 +49,11 @@ section {
 
     .fs-1 {
       line-height:35px;
-      font-size: 25px !important;
+      font-size: 30px !important;
     }
 
     .hero p {
-       font-size: 16px;
+       font-size: 20px;
       letter-spacing: 1px;
       font-family: 'PPRightGothicWide';
       color: var(--branco);
@@ -86,10 +86,10 @@ display: block;
       background: rgba(255, 255, 255, 0.05);
       border-radius: 1rem;
       text-align: center;
-      font-size: 15px;
+      font-size: 18px;
       border: 1px solid var(--amarelo);
       width: 220px;
-      height: 120px;
+      height: 140px;
        font-family: 'PPRightGothicWide';
        font-weight: 300;
         color: var(--branco);
@@ -107,7 +107,7 @@ display: block;
   background-color: var(--amarelo);
   border-bottom: 5px solid var(--azul-escuro);
   display: inline-flex;
-  font-size: 15px;
+  font-size: 18px;
   padding: 0.8rem 2.5rem;
   color: var(--azul-escuro);
   text-decoration: none;
@@ -155,7 +155,7 @@ display: block;
 margin: auto;
   color: var(--branco);
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'PPRightGothicWide';
   line-height: 45px;
   font-weight: 400;
@@ -180,7 +180,8 @@ margin: auto;
       display: flex;
       align-items: center;
        overflow: hidden;
-       padding: 5rem 0 !important;
+       padding: 5rem 0 10rem 0 !important;
+   margin-bottom: -180px;
 }
 
 .sobre-imersao h5 {
@@ -192,13 +193,13 @@ margin: auto;
     font-family: 'PPRightGothicWide';
     font-weight: 700;
     color: var(--azul-escuro);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .sobre-imersao li p {
 font-family: 'PPRightGothicWide';
     font-weight: 400;
-font-size: 16px;
+font-size: 19px;
 text-align: justify;
 line-height: 35px;
     color: var(--azul-escuro);
@@ -210,6 +211,15 @@ z-index: 99;
   padding: 0 6rem;
 }
 
+@media (max-width: 767px) {
+.sobre-imersao li {
+position: relative;
+z-index: 99;
+  padding: 0 2rem;
+}
+
+}
+
 
   .btn-2 {
   border: none;
@@ -219,13 +229,13 @@ z-index: 99;
   background-color: var(--azul-escuro);
   border-bottom: 5px solid var(--amarelo);
   display: inline-flex;
-  font-size: 15px;
+  font-size: 18px;
   padding: 0.8rem 2.5rem;
   color: var(--branco);
   text-decoration: none;
   border-radius: 10px;
   transform: translateY(0); /* Estado inicial */
-  z-index: 999;
+  z-index: 99999999999;
   position: relative;
 }
 
@@ -259,17 +269,108 @@ z-index: 99;
 /* TECNICA */
 
 .tecnica {
-  background: url('/assets/images/tecnica/BACKGROUND\ SEÇÃO\ 3.jpg') no-repeat center center/cover;
+  background: url('/assets/images/tecnica/BACKGROUND\ DESKTOP\ COM\ TRANSPARÊNCIA.png') no-repeat center center/cover;
       display: flex;
       align-items: center;
-       position: relative;
-       z-index: 9999;
-    padding: 15rem 0 !important;
+  
+       padding: 15rem 0 5rem 0;
+       
+  
 }
 
 .tecnica li p {
   font-family: 'PPRightGothicWide';
-  font-weight: 700;
+  font-weight: 400;
   color: var(--branco);
+font-size: 25px;
+line-height: 40px;
+position: relative;
+
+}
+
+
+.tecnica li p::before {
+    content: "";
+    position: absolute;
+    left: -70px;
+    top: -10px;
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/images/tecnica/ÍCONE-ESTRELA.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* SEÇÃO 4 NOVA HARMONIZAÇÃO */
+
+.secao-4 h3 {
+
+   font-family: 'PPRightGothicWide';
+  font-weight: 400;
+  color: var(--azul-escuro);
+font-size: 45px;
+text-align: left;
+
+}
+
+.secao-4 .row.bullets {
+padding-top: 5rem !important;
+
+}
+
+.secao-4 .row .bullet{
+    border: 2px solid var(--cinza);
+    border-radius: 15px;
+    margin: 0 20px;
+    width: 375px;
+    height: 500px;
+
+}
+
+.secao-4 h5 {
+background-color: var(--amarelo);
+height: 150px;
+width: 100%;
+    font-family: 'PPRightGothicWide';
+  font-weight: 700;
+  color: var(--azul-escuro);
+font-size: 21px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 1rem 2rem;
+border-radius: 15px;
+margin-top: -50px;
+}
+
+.secao-4 p {
+
+    font-family: 'PPRightGothicWide';
+  font-weight: 400;
+  color: var(--azul-escuro);
+font-size: 18px;
+line-height: 40px;
+margin-top: 2rem;
+
+
+}
+
+
+/* SECÇÃO 5 */
+
+.secao-5 {
+  background: url('/assets/images/seção-5/BACKGROUND-SEÇÃO-5.jpg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+padding: 10rem 0;
+}
+
+.secao-5 p {
+    font-family: 'PPRightGothicWide';
+  font-weight: 400;
+  color: var(--branco);
+
 
 }
