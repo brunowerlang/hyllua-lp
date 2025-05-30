@@ -49,11 +49,11 @@ section {
 
     .fs-1 {
       line-height:40px;
-      font-size: 28px !important;
+      font-size: 25px !important;
     }
 
     .hero p {
-       font-size: 18px;
+       font-size: 16px;
       letter-spacing: 1px;
       font-family: 'PPRightGothicWide';
       color: var(--branco);
@@ -64,13 +64,10 @@ section {
  
 .hero-content {
     height: 100%;
-
+display: block;
 }
 
-    .hero-img {
-  max-width: 100%;
-  height: auto;
-    }
+
 
     .bullets {
       display: flex;
@@ -89,7 +86,7 @@ section {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 1rem;
       text-align: center;
-      font-size: 17px;
+      font-size: 15px;
       border: 1px solid var(--amarelo);
       width: 220px;
       height: 120px;
@@ -102,22 +99,36 @@ section {
           position: relative;
     }
 
-    .btn-1 {
-      border: none;
-      font-family: 'PPRightGothicWide';
-      font-weight: 700;
-      transition: background-color 0.3s;
-      background-color: var(--amarelo);
-      border-bottom: 5px solid var(--azul-escuro);
-      display: inline-flex;
-      font-size: 18px;
-      padding: .8rem 2.5rem;
-      color: var(--azul-escuro);
-      text-decoration: none;
-      border-radius: 10px;
-    }
+  .btn-1 {
+  border: none;
+  font-family: 'PPRightGothicWide';
+  font-weight: 700;
+  transition: all 0.3s ease; /* Adiciona suavidade à transformação */
+  background-color: var(--amarelo);
+  border-bottom: 5px solid var(--azul-escuro);
+  display: inline-flex;
+  font-size: 15px;
+  padding: 0.8rem 2.5rem;
+  color: var(--azul-escuro);
+  text-decoration: none;
+  border-radius: 10px;
+  transform: translateY(0); /* Estado inicial */
+}
 
-    .btn-1:hover {}
+.btn-1:hover {
+  transform: translateY(-4px); /* Sobe 4px suavemente */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Opcional: sombra para realce */
+}
+
+
+.btn-1-mobile {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) !important;
+  white-space: nowrap;
+}
+
 
 
     .bullet-box::before {
