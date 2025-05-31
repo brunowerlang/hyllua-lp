@@ -506,7 +506,7 @@ color: var(--azul-escuro);
 
 .secao-7 {
   background: url('/assets/images/seção-7/BACKGROUND-SEÇÃO-7.jpg') no-repeat center center/cover;
-  
+  overflow: hidden;
 }
 
 
@@ -580,7 +580,7 @@ justify-content: center;
   background-image: url('/assets/images/seção-7/Light.png'); /* caminho do seu flash */
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 1;
+  z-index: 0;
   overflow: hidden;
 }
 
@@ -590,22 +590,72 @@ justify-content: center;
 .certificado {
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
+
+
+@media (max-width: 767px) {
 
 .certificado::after {
   content: "";
-  position: absolute;
+  position: absolute; 
+  bottom: -3px;
+  left: 0;
+  width: 101%;
+  height: 40%;
+  background-color: var(--cinza);
+  z-index: -2;
+}
+
+
+.certificado .container::after {
+        content: "";
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        width: 95%;
+        height: 62%;
+        border: 3px solid var(--branco);
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        border-radius: 10px;
+
+}
+}
+
+
+@media (min-width: 768px) { 
+
+.certificado::after {
+  content: "";
+  position: absolute; 
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 52%; /* ajuste a altura como preferir */
+  height: 55%;
   background-color: var(--cinza);
-  z-index: -1;
+  z-index: -2;
+}
+
+
+.certificado .container::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 60%;
+        height: 60%;
+        border: 3px solid var(--branco);      
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        border-radius: 10px;
+    }
 }
 
 
 .certificado {
   background-color: var(--amarelo);
+  padding: 10rem 0 !important
 }
 
 .certificado h3 {
@@ -628,9 +678,32 @@ font-size: 18px;
  
 }
 
-.certificado .container {
+/* SEÇÃO 9 */
 
-  border: 2px solid var(--branco);
-  padding: 3rem;
-  border-radius: 50px;
+.secao-9 .btn-1 {
+  color: var(--branco);
+}
+
+.secao-9 {
+  background: var(--cinza)
+}
+
+
+.secao-9 h3, .secao-9 h5 {
+  font-family: 'PPEditorialOld';
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--azul-escuro);
+  line-height: 45px;
+}
+
+.secao-9 p {
+  font-family: 'PPRightGothicWide';
+  font-weight: 400;
+  color: var(--azul-escuro);
+
+}
+
+p {
+  font-size: 16px !important;
 }
