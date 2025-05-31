@@ -191,7 +191,7 @@ display: block;
 margin: auto;
   color: var(--branco);
   text-align: center;
-  font-size: 35px !important;
+  font-size: 26px !important;
   font-family: 'PPRightGothicWide';
   line-height: 45px;
   font-weight: 400;
@@ -376,13 +376,13 @@ padding-top: 5rem !important;
     border-radius: 15px;
     margin: 0 20px;
     width: 375px;
-    height: 500px;
+    height: 370px;
 
 }
 
 .secao-4 h5 {
 background-color: var(--amarelo);
-height: 150px;
+height: 120px;
 width: 100%;
     font-family: 'PPEditorialOld';
   font-weight: 700;
@@ -474,8 +474,6 @@ text-align: center;
 color: var(--azul-escuro);
   font-size: 20px;
   text-align: justify;
-  line-height: 40px;
-
   margin: auto;
 }
 
@@ -686,7 +684,7 @@ justify-content: center;
   font-family: 'PPEditorialOld';
   font-weight: 700;
 color: var(--azul-escuro);
-font-size: 18px;
+font-size: 22px;
 }
 
 .certificado p {
@@ -704,6 +702,13 @@ font-size: 18px;
 
 /* SEÇÃO 9 */
 
+@media (min-width: 992px) {
+  .textos-secao {
+
+    padding: 0 6rem;
+  }
+}
+
 .secao-9 .btn-1 {
   color: var(--branco);
 }
@@ -715,10 +720,10 @@ font-size: 18px;
 
 .secao-9 h3, .secao-9 h5 {
   font-family: 'PPEditorialOld';
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--azul-escuro);
-  line-height: 45px;
+  line-height: 40px;
 }
 
 .secao-9 p {
@@ -730,6 +735,7 @@ font-size: 18px;
 
 p {
   font-size: 16px !important;
+  line-height: 30px !important;
 }
 
 
