@@ -32,6 +32,26 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'PPEditorialOld';
+  src: url('/fonts/Editorial-Old/PPEditorialOld-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPEditorialOld';
+  src: url('/fonts/Editorial-Old/PPEditorialOld-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPEditorialOld';
+  src: url('/fonts/Editorial-Old/PPEditorialOld-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 section {
 
@@ -206,7 +226,7 @@ margin: auto;
   display: inline-flex;
   padding: 1rem 2rem;
   border-radius: 99px;
-    font-family: 'PPRightGothicWide';
+    font-family: 'PPEditorialOld';
     font-weight: 700;
     color: var(--azul-escuro);
     font-size: 20px;
@@ -298,7 +318,7 @@ z-index: 99;
   font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--branco);
-font-size: 24px;
+font-size: 20px;
 line-height: 40px;
 position: relative;
 
@@ -364,7 +384,7 @@ padding-top: 5rem !important;
 background-color: var(--amarelo);
 height: 150px;
 width: 100%;
-    font-family: 'PPRightGothicWide';
+    font-family: 'PPEditorialOld';
   font-weight: 700;
   color: var(--azul-escuro);
 font-size: 21px;
@@ -396,15 +416,168 @@ margin-top: 2rem;
   background: url('/assets/images/seção-5/BACKGROUND-SEÇÃO-5.jpg') no-repeat center center/cover;
       display: flex;
       align-items: center;
-padding: 10rem 0;
+padding: 8rem 0;
 }
 
-.secao-5 p {
+.secao-5 .esquerda p {
     font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--branco);
+text-transform: uppercase;
+text-align: center;
+font-size: 22px;
+width: 55%;
+}
+
+.secao-5 .direita p {
+    font-family: 'PPRightGothicWide';
+  font-weight: 400;
+  color: var(--branco);
+text-align: center;
+font-size: 20px;
+line-height: 40px;
+}
+
+
+.secao-5 .direita h3 {
+
+  font-family: 'PPRightGothicWide';
+  font-weight: 700;
+  color: var(--amarelo);
+  font-size: 22px;
+line-height: 40px;
+text-align: center;
+}
+
+/* VIDEO */
+
+
+.video {
+  background: url('/assets/images/video/BACKGROUND-SEÇÃO-6.jpg') no-repeat center center/cover;
+}
 
 
 
+.video h3 {
+    font-size: 22px;
+      letter-spacing: 1px;
+      font-family: 'PPRightGothicWide';
+      font-weight: 400;
+  background-color: var(--amarelo);
+  color: var(--branco);
+  padding: 1rem 3rem;
+ display: inline-block;
+  border-radius: 99px;
+}
 
+.video p {
+color: var(--azul-escuro);
+  font-size: 20px;
+  text-align: justify;
+  line-height: 40px;
+
+  margin: auto;
+}
+
+
+@media (min-width: 992px) {
+.video p {
+  width: 55%;
+
+}
+}
+
+/* FAIXA */
+
+.faixa {
+  background-color: var(--amarelo);
+}
+
+@media (max-width: 991px) {
+
+  .faixa img {
+
+    margin: 1rem 0;
+  }
+}
+
+
+/* SEÇÃO 7 */
+
+.secao-7 {
+  background: url('/assets/images/seção-7/BACKGROUND-SEÇÃO-7.jpg') no-repeat center center/cover;
+}
+
+
+.secao-7 .bolinha::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: var(--amarelo); 
+  border-radius: 50%;
+  margin-right: 20px;
+ 
+      top: 00px;
+    position: relative;
+}
+
+
+@media (min-width: 992px) {
+.secao-7 ul {
+
+  width: 70%;
+  margin: auto;
+}
+}
+
+
+.secao-7 li {
+justify-content: center;
+  display: flex;
+}
+
+.secao-7 p {
+      font-family: 'PPRightGothicWide';
+      font-weight: 400;
+  color: var(--azul-escuro);
+  font-size: 18px;
+  
+  margin-bottom: 0 !important;
+}
+
+.secao-7 h5 {
+
+    font-family: 'PPRightGothicWide';
+      font-weight: 400;
+      color: var(--azul-escuro);
+       font-size: 26px;
+}
+
+.titulo-hyllua {
+  position: relative;
+}
+
+.titulo-hyllua::after {
+     content: '';
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 57%;
+    height: 5px;
+    background-color: var(--amarelo);
+}
+
+.flash-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0; /* ou ajuste conforme o posicionamento desejado */
+  width: 800px; /* ajuste conforme necessário */
+  height: 800px;
+  background-image: url('/assets/images/seção-7/Light.png'); /* caminho do seu flash */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
 }
