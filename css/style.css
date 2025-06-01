@@ -3,7 +3,7 @@
 
 :root {
   --azul-escuro: #1e2c5c;
-  --amarelo: #e6ad7b;
+  --amarelo: #c6ad7b;
   --azul-claro: #3957a6;
   --branco: #f3f2ef;
   --cinza: #efefee;
@@ -85,11 +85,11 @@ section {
 
     .fs-1 {
       line-height:35px;
-      font-size: 30px !important;
+      font-size: 25px !important;
     }
 
     .hero p {
-       font-size: 20px;
+       font-size: 16px;
       letter-spacing: 1px;
       font-family: 'PPRightGothicWide';
       color: var(--branco);
@@ -122,10 +122,10 @@ display: block;
       background: rgba(255, 255, 255, 0.05);
       border-radius: 1rem;
       text-align: center;
-      font-size: 18px;
+      font-size: 16px;
       border: 1px solid var(--amarelo);
-      width: 220px;
-      height: 140px;
+      width: 180px;
+      height: 130px;
        font-family: 'PPRightGothicWide';
        font-weight: 300;
         color: var(--branco);
@@ -193,9 +193,10 @@ margin: auto;
   text-align: center;
   font-size: 26px !important;
   font-family: 'PPRightGothicWide';
-  line-height: 45px;
+  line-height: 50px;
   font-weight: 400;
   letter-spacing: -.5px;
+      padding: .5rem;
 }
 
 .custom-width {
@@ -216,7 +217,7 @@ margin: auto;
       display: flex;
       align-items: center;
        overflow: hidden;
-       padding: 5rem 0 10rem 0 !important;
+       padding: 5rem 0 !important;
    margin-bottom: -220px;
 }
 
@@ -235,16 +236,18 @@ margin: auto;
 .sobre-imersao li p {
 font-family: 'PPRightGothicWide';
     font-weight: 400;
-font-size: 19px;
+font-size: 16px;
 text-align: justify;
 line-height: 35px;
     color: var(--azul-escuro);
+    max-width: 365px;
+    margin: auto;
 }
 
 .sobre-imersao li {
 position: relative;
 z-index: 99;
-  padding: 0 6rem;
+  padding: 0 3rem;
 }
 
 @media (max-width: 767px) {
@@ -273,6 +276,7 @@ z-index: 99;
   transform: translateY(0); /* Estado inicial */
   z-index: 99999999999;
   position: relative;
+  bottom: 100px;
 }
 
 .btn-2:hover {
@@ -305,13 +309,10 @@ z-index: 99;
 /* TECNICA */
 
 .tecnica {
-  background: url('/assets/images/tecnica/BACKGROUND\ DESKTOP\ COM\ TRANSPARÊNCIA.png') no-repeat center center/cover;
-      display: flex;
-      align-items: center;
-  
-       padding: 15rem 0 5rem 0;
-       
-  
+    background: url('/assets/images/tecnica/BACKGROUND DESKTOP COM TRANSPARÊNCIA.png') no-repeat center center / cover;
+position: relative;
+z-index: 1;
+padding: 10rem 0 3rem 0;
 }
 
 .tecnica li p {
@@ -328,13 +329,17 @@ position: relative;
 .tecnica li p::before {
     content: "";
     position: absolute;
-    left: -70px;
-    top: -10px;
-    width: 50px;
-    height: 50px;
+    left: -60px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
     background-image: url(/assets/images/tecnica/ÍCONE-ESTRELA.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+.tecnica li p {
+width: 79%;
+
 }
 }
 
@@ -345,8 +350,8 @@ position: relative;
     position: absolute;
     left: 0px;
     top: -50px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-image: url(/assets/images/tecnica/ÍCONE-ESTRELA.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -361,7 +366,7 @@ position: relative;
    font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--azul-escuro);
-font-size: 45px;
+font-size: 40px;
 text-align: left;
 
 }
@@ -374,27 +379,27 @@ padding-top: 5rem !important;
 .secao-4 .row .bullet{
     border: 2px solid var(--cinza);
     border-radius: 15px;
-    margin: 0 20px;
-    width: 375px;
-    height: 370px;
 
 }
 
+
+
 .secao-4 h5 {
 background-color: var(--amarelo);
-height: 120px;
 width: 100%;
     font-family: 'PPEditorialOld';
   font-weight: 700;
   color: var(--azul-escuro);
-font-size: 21px;
+font-size: 20px;
 text-align: center;
 display: flex;
 align-items: center;
 justify-content: center;
 padding: 1rem 2rem;
-border-radius: 15px;
+border-radius: 5px;
 margin-top: -50px;
+
+
 }
 
 .secao-4 p {
@@ -402,11 +407,38 @@ margin-top: -50px;
     font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--azul-escuro);
-font-size: 18px;
+font-size: 17px;
 line-height: 40px;
 margin-top: 2rem;
 
 
+}
+
+@media (min-width: 1220px) {
+
+  .secao-4 .row .bullet{
+        height: 490px;
+        width: 385px;
+}
+
+
+.secao-4 h5 {
+background-color: var(--amarelo);
+width: 100%;
+    font-family: 'PPEditorialOld';
+  font-weight: 700;
+  color: var(--azul-escuro);
+font-size: 20px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 1rem 2rem;
+border-radius: 5px;
+margin-top: -50px;
+height: 150px;
+
+}
 }
 
 
@@ -733,10 +765,7 @@ font-size: 22px;
 
 }
 
-p {
-  font-size: 16px !important;
-  line-height: 30px !important;
-}
+
 
 
 /* PRIVACIDADE */
