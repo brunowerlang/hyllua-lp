@@ -88,7 +88,7 @@ section {
   background: url('/assets/images/hero/BACKGROUND-SEÇÃO-1.jpg') no-repeat center center/cover;
   display: flex !important;
   align-items: center;
-    min-height: 80vh;
+  height: 80vh;
   flex-direction: column;
     justify-content: flex-end;
 }
@@ -114,7 +114,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 1rem;
 }
 
 
