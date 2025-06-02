@@ -507,36 +507,44 @@ margin-top: -50px;
   font-weight: 400;
   color: var(--azul-escuro);
 font-size: 17px;
-line-height: 40px;
-margin-top: 2rem;
+line-height: 35px;
+margin-top: 1rem;
 
 
+}
+
+
+@media (max-width: 767px) {
+
+  .secao-4 .row .bullet{
+   width: 90%;
+   margin: 2rem auto;
+}
 }
 
 @media (min-width: 1220px) {
 
   .secao-4 .row .bullet{
-        height: 445px;
+        height: 400px;
         width: 355px;
 }
 
 
 .secao-4 h5 {
-background-color: var(--amarelo);
-width: 100%;
-    font-family: 'PPEditorialOld';
-  font-weight: 700;
-  color: var(--azul-escuro);
-font-size: 19px;
-text-align: center;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 1rem 3rem;
-border-radius: 5px;
-margin-top: -70px;
-height: 120px;
-
+        background-color: var(--amarelo);
+        width: 100%;
+        font-family: 'PPEditorialOld';
+        font-weight: 700;
+        color: var(--azul-escuro);
+        font-size: 22px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        margin-top: -70px;
+        height: 120px;
 }
 }
 
