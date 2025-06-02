@@ -399,6 +399,7 @@ width: 82%;
 
 .secao-4 {
   padding: 5rem 0 !important;
+    background: url('/assets/images/seção-4/BACKGROUND\ SEÇÃO\ 4.jpg') no-repeat top center / cover;
 }
 
 .secao-4 h3 {
@@ -409,6 +410,10 @@ width: 82%;
 font-size: 40px;
 text-align: left;
 
+}
+
+.secao-4 .card {
+  background-color: transparent;
 }
 
 .secao-4 .row.bullets {
@@ -523,7 +528,7 @@ line-height: 40px;
   color: var(--amarelo);
   font-size: 24px;
 line-height: 35px;
-text-align: center;
+text-align: justify;
 }
 
 /* VIDEO */
@@ -552,7 +557,7 @@ text-align: center;
 .video p {
 color: var(--azul-escuro);
   font-size: 22px;
-  text-align: center;
+  text-align: justify;
   margin: auto;
 }
 
@@ -565,7 +570,7 @@ color: var(--azul-escuro);
 }
 
 .ratio-16x9 {
-    --bs-aspect-ratio: 100%;
+    --bs-aspect-ratio: 75%;
     background: #1d1d1d;
     border-radius: 20px;
 }
