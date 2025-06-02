@@ -218,7 +218,7 @@ margin: auto;
 
 @media (min-width: 992px) {
   .custom-width {
-    width: 50%;
+    width: 500px;
   }
 }
 
@@ -238,7 +238,7 @@ margin: auto;
 
 .sobre-imersao h5 {
 
-  border: 1px solid var(--azul-escuro);
+  border: 2px solid var(--azul-escuro);
   display: inline-flex;
   padding: .5rem 2rem;
   border-radius: 99px;
@@ -289,12 +289,12 @@ z-index: 99;
   .btn-2 {
   border: none;
   font-family: 'PPRightGothicWide';
-  font-weight: 700;
+  font-weight: 400;
   transition: all 0.3s ease; /* Adiciona suavidade à transformação */
   background-color: var(--azul-escuro);
   border-bottom: 5px solid var(--amarelo);
   display: inline-flex;
-  font-size: 16px;
+  font-size: 18px;
   padding: 0.8rem 2.5rem;
   color: var(--branco);
   text-decoration: none;
@@ -335,11 +335,14 @@ z-index: 99;
 /* TECNICA */
 
 .tecnica {
-  background: url('/assets/images/tecnica/BACKGROUND DESKTOP COM TRANSPARÊNCIA.png') no-repeat top center / cover;
-  position: relative;
-  z-index: 7;
-  padding: 2rem 0;
-  margin-top: -180px;
+ display: flex !important;
+    background: url('/assets/images/tecnica/BACKGROUND DESKTOP COM TRANSPARÊNCIA.png') no-repeat top center / cover;
+    position: relative;
+    z-index: 7;
+    height: 325px;
+    margin-top: -180px;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 767px) {
@@ -363,28 +366,28 @@ position: relative;
 }
 
 .tecnica ul {
-margin-top: 4rem;
+margin-top: 3rem;
   margin-bottom: 0 !important;
 }
 
 @media (min-width: 992px) {
 .tecnica li p::before {
-    content: "";
-    position: absolute;
-    left: -60px;
-    top: 0px;
-    width: 40px;
-    height: 40px;
-    background-image: url(/assets/images/tecnica/ÍCONE-ESTRELA.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+   content: "";
+        position: absolute;
+        left: -60px;
+        top: -6px;
+        width: 37px;
+        height: 37px;
+        background-image: url( '/assets/images/tecnica/ÍCONE-ESTRELA.png');
+        background-size: contain;
+        background-repeat: no-repeat;
 }
 .tecnica li p {
-width: 73%;
+        width: 405px;
 
 }
 .tecnica img {
-  max-width: 50%;
+  max-width: 60%;
 }
 }
 
@@ -393,6 +396,7 @@ width: 73%;
   .tecnica {
         padding: 7rem 0 3rem 0;
         margin-top: -200px;
+                height: 100%;
   }
   .tecnica li p::before {
     content: "";
@@ -778,7 +782,7 @@ justify-content: center;
         position: absolute;
         top: 55%;
         left: 50%;
-        width: 60%;
+        width: 75%;
         height: 70%;
         border: 2px solid var(--branco);      
         transform: translate(-50%, -50%);
