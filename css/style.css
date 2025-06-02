@@ -204,7 +204,7 @@ section {
 margin: auto;
   color: var(--branco);
   text-align: center;
-  font-size: 26px !important;
+  font-size: 24px !important;
   font-family: 'PPRightGothicWide';
   font-weight: 400;
   letter-spacing: -.5px;
@@ -230,7 +230,7 @@ margin: auto;
       display: flex;
       align-items: center;
        overflow: hidden;
-       padding: 5rem 0 !important;
+       padding: 8rem 0 !important;
   
 }
 
@@ -261,6 +261,7 @@ line-height: 30px;
 position: relative;
 z-index: 99;
   padding: 0 3rem;
+  margin-bottom: 6rem !important;
 }
 
 @media (max-width: 767px) {
@@ -311,13 +312,13 @@ z-index: 99;
 }
 
 .image-wrapper::before {
- content: "";
+    content: "";
     position: absolute;
-    top: -73%;
-    left: -70%;
-    width: 240%;
-    height: 240%;
-    background-image: url('/assets/images/sobre-imersao/ÍCONE-ESTRELA.png');
+    top: -113%;
+    left: -83%;
+    width: 320%;
+    height: 320%;
+    background-image: url(/assets/images/sobre-imersao/ÍCONE-ESTRELA.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
