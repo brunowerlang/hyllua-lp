@@ -264,6 +264,10 @@ z-index: 99;
   padding: 0 2rem;
 }
 
+.sobre-imersao {
+margin-bottom: -285px;
+
+}
 }
 
 
@@ -351,7 +355,10 @@ width: 87%;
 }
 
 @media (max-width: 991px) {
+  .tecnica {
 
+    padding: 15rem 0 2rem 0;
+  }
   .tecnica li p::before {
     content: "";
     position: absolute;
