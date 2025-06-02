@@ -456,7 +456,8 @@ margin-top: 2rem;
   color: var(--azul-escuro);
 font-size: 40px;
 text-align: left;
-
+position: relative;
+    top: 5px;
 }
 
 .secao-4 .card {
@@ -509,7 +510,7 @@ margin-top: 2rem;
 @media (min-width: 1220px) {
 
   .secao-4 .row .bullet{
-        height: 455px;
+        height: 445px;
         width: 355px;
 }
 
