@@ -90,7 +90,7 @@ section {
   align-items: center;
     min-height: 80vh;
   flex-direction: column;
-  justify-content: center;
+    justify-content: flex-end;
 }
 
 
