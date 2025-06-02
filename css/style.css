@@ -78,8 +78,6 @@ section {
 
 
   .hero .logo {
-
-  width: 95%;
   margin: 2rem 0;
 }
 }
@@ -136,8 +134,8 @@ section {
       text-align: center;
       font-size: 12px;
       border: 1px solid rgba(255, 200, 87, 0.2); /* 40% de opacidade */
-    width: 140px;
-    height: 85px;
+    width: 144px;
+    height: 89px;
        font-family: 'PPRightGothicWide';
        font-weight: 300;
         color: var(--branco);
@@ -292,7 +290,7 @@ margin-bottom: -285px;
   background-color: var(--azul-escuro);
   border-bottom: 5px solid var(--amarelo);
   display: inline-flex;
-  font-size: 18px;
+  font-size: 16px;
   padding: 0.8rem 2.5rem;
   color: var(--branco);
   text-decoration: none;
