@@ -288,7 +288,7 @@ z-index: 99;
 
 .btn-- {
  position: relative;
-margin-top: -220px;
+margin-top: -195px;
  z-index: 99999999999;
      margin-bottom: 5rem !important;
 }
@@ -302,7 +302,7 @@ margin-top: -220px;
   border-bottom: 5px solid var(--amarelo);
   display: inline-flex;
   font-size: 18px;
-  padding: 0.8rem 2.5rem;
+  padding: 0.8rem 1.5rem;
   color: var(--branco);
   text-decoration: none;
   border-radius: 10px;
