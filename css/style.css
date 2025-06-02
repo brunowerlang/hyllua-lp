@@ -58,6 +58,13 @@ section {
   display: block !important; 
 }
 
+@media (max-width: 767px) {
+
+  .container {
+    padding: 0 2rem !important;
+  }
+}
+
 /* HERO */
 
 .hero .logo {
