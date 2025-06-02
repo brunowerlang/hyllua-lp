@@ -286,6 +286,13 @@ z-index: 99;
   }
 }
 
+.btn-- {
+ position: relative;
+margin-top: -80px;
+ z-index: 99999999999;
+     margin-bottom: 5rem !important;
+}
+
   .btn-2 {
   border: none;
   font-family: 'PPRightGothicWide';
@@ -300,9 +307,9 @@ z-index: 99;
   text-decoration: none;
   border-radius: 10px;
   transform: translateY(0); /* Estado inicial */
-  z-index: 99999999999;
-  position: relative;
-  bottom: 80px;
+
+ 
+  text-transform: uppercase;
 }
 
 .btn-2:hover {
@@ -339,7 +346,7 @@ z-index: 99;
     background: url('/assets/images/tecnica/BACKGROUND DESKTOP COM TRANSPARÊNCIA.png') no-repeat top center / cover;
     position: relative;
     z-index: 7;
-    height: 325px;
+    padding: 3rem 0;
     margin-top: -180px;
     justify-content: center;
     align-items: center;
@@ -360,14 +367,15 @@ z-index: 99;
   font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--branco);
-font-size: 16px;
+font-size: 12px;
 line-height: 25px;
 position: relative;
 }
 
 .tecnica ul {
-margin-top: 3rem;
+margin-top: 5rem;
   margin-bottom: 0 !important;
+
 }
 
 @media (min-width: 992px) {
@@ -383,11 +391,18 @@ margin-top: 3rem;
         background-repeat: no-repeat;
 }
 .tecnica li p {
-        width: 405px;
+               width: 300px;
 
 }
 .tecnica img {
-  max-width: 60%;
+  max-width: 50%;
+        position: relative;
+        top: -20px;
+}
+
+.tecnica ul {
+
+  margin-left: 160px;
 }
 }
 
