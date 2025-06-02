@@ -68,8 +68,8 @@ section {
 /* HERO */
 
 .hero .logo {
-    margin: 3rem 0 1rem 0;
-  max-width: 90%;
+    margin: 3rem 0 2rem 0;
+  max-width: 80%;
 }
 
 
@@ -93,11 +93,11 @@ section {
 
     .fs-1 {
       line-height:35px;
-      font-size: 25px !important;
+      font-size: 24px !important;
     }
 
     .hero p {
-       font-size: 16px;
+       font-size: 14px;
       font-family: 'PPRightGothicWide';
       color: var(--branco);
       font-weight: 300;
@@ -132,10 +132,10 @@ section {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 1rem;
       text-align: center;
-      font-size: 16px;
-      border: 1px solid var(--amarelo);
-      width: 175px;
-      height: 120px;
+      font-size: 14px;
+      border: 1px solid rgba(255, 200, 87, 0.4); /* 40% de opacidade */
+      width: 160px;
+      height: 100px;
        font-family: 'PPRightGothicWide';
        font-weight: 300;
         color: var(--branco);
@@ -181,10 +181,10 @@ section {
     .bullet-box::before {
     content: "";
     position: absolute;
-    top: -20px;
+    top: -17px;
     left: 27px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     background-image: url('/assets/images/hero/ICONE-ESTRELA-CÍRCULO.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -248,7 +248,7 @@ margin: auto;
 font-family: 'PPRightGothicWide';
     font-weight: 400;
 font-size: 18px;
-text-align: center;
+text-align: justify;
 line-height: 35px;
     color: var(--azul-escuro);
     padding: 0 4rem;
@@ -291,7 +291,7 @@ margin-bottom: -285px;
   transform: translateY(0); /* Estado inicial */
   z-index: 99999999999;
   position: relative;
-  bottom: 100px;
+  bottom: 50px;
 }
 
 .btn-2:hover {
