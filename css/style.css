@@ -197,9 +197,7 @@ section {
 /* SECTION 2 */
 
 .section-2 {
-    margin-top: -30px;
-    position: relative;
-    z-index: 222;
+
   background-color: var(--amarelo);
 }
 
