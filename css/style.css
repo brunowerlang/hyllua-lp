@@ -294,10 +294,10 @@ z-index: 99;
 .image-wrapper::before {
     content: "";
     position: absolute;
-    top: -50%;
-    left: -75%;
-    width: 200%;
-    height: 200%;
+    top: -54%;
+    left: -70%;
+    width: 205%;
+    height: 205%;
     background-image: url(/assets/images/sobre-imersao/ÍCONE-ESTRELA.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -312,15 +312,15 @@ z-index: 99;
     background: url('/assets/images/tecnica/BACKGROUND DESKTOP COM TRANSPARÊNCIA.png') no-repeat center center / cover;
 position: relative;
 z-index: 1;
-padding: 10rem 0 3rem 0;
+padding: 10rem 0 2rem 0;
 }
 
 .tecnica li p {
   font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--branco);
-font-size: 20px;
-line-height: 40px;
+font-size: 22px;
+line-height: 35px;
 position: relative;
 
 }
@@ -338,7 +338,7 @@ position: relative;
     background-repeat: no-repeat;
 }
 .tecnica li p {
-width: 79%;
+width: 87%;
 
 }
 }
@@ -457,7 +457,7 @@ padding: 8rem 0;
   color: var(--branco);
 text-transform: uppercase;
 text-align: center;
-font-size: 22px !important;
+font-size: 21px !important;
 width: 55%;
 }
 
@@ -466,8 +466,13 @@ width: 55%;
   font-weight: 400;
   color: var(--branco);
 text-align: center;
-font-size: 20px;
+font-size: 21px;
 line-height: 40px;
+}
+
+.secao-5 .direita img {
+
+  max-width: 5%;
 }
 
 
@@ -476,8 +481,8 @@ line-height: 40px;
   font-family: 'PPRightGothicWide';
   font-weight: 700;
   color: var(--amarelo);
-  font-size: 22px;
-line-height: 40px;
+  font-size: 24px;
+line-height: 35px;
 text-align: center;
 }
 
@@ -486,33 +491,34 @@ text-align: center;
 
 .video {
   background: url('/assets/images/video/BACKGROUND-SEÇÃO-6.jpg') no-repeat center center/cover;
+  padding: 13rem 0 !important;
 }
 
 
 
 .video h3 {
-    font-size: 22px;
+    font-size: 24px;
       letter-spacing: 1px;
       font-family: 'PPRightGothicWide';
       font-weight: 400;
   background-color: var(--amarelo);
   color: var(--branco);
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
  display: inline-block;
   border-radius: 99px;
 }
 
 .video p {
 color: var(--azul-escuro);
-  font-size: 20px;
-  text-align: justify;
+  font-size: 22px;
+  text-align: center;
   margin: auto;
 }
 
 
 @media (min-width: 992px) {
 .video p {
-  width: 55%;
+  width: 56%;
 
 }
 }
@@ -561,6 +567,11 @@ color: var(--azul-escuro);
   width: 70%;
   margin: auto;
 }
+
+.secao-7 .flash-container img {
+  max-width: 130%;
+}
+
 }
 
 
@@ -669,10 +680,10 @@ justify-content: center;
         left: 50%;
         width: 95%;
         height: 62%;
-        border: 3px solid var(--branco);
+        border: 2px solid var(--branco);
         transform: translate(-50%, -50%);
         z-index: -1;
-        border-radius: 10px;
+        border-radius: 30px;
 
 }
 }
@@ -686,7 +697,7 @@ justify-content: center;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 55%;
+  height: 53%;
   background-color: var(--cinza);
   z-index: -2;
 }
@@ -697,33 +708,33 @@ justify-content: center;
         position: absolute;
         top: 50%;
         left: 50%;
-        width: 70%;
-        height: 60%;
-        border: 3px solid var(--branco);      
+        width: 60%;
+        height: 65%;
+        border: 2px solid var(--branco);      
         transform: translate(-50%, -50%);
         z-index: -1;
-        border-radius: 10px;
+        border-radius: 30px;
     }
 }
 
 
 .certificado {
   background-color: var(--amarelo);
-  padding: 10rem 0 !important
+  padding: 10rem 0 5rem 0 !important
 }
 
 .certificado h3 {
   font-family: 'PPEditorialOld';
   font-weight: 700;
 color: var(--azul-escuro);
-font-size: 22px;
+font-size: 24px;
 }
 
 .certificado p {
 
     font-family: 'PPRightGothicWide';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     color: var(--azul-escuro);
 }
 
@@ -739,6 +750,10 @@ font-size: 22px;
 
     padding: 0 6rem;
   }
+
+  .secao-9 img {
+max-width: 120%;
+  }
 }
 
 .secao-9 .btn-1 {
@@ -746,13 +761,14 @@ font-size: 22px;
 }
 
 .secao-9 {
+  padding: 5rem 0;
   background: var(--cinza)
 }
 
 
 .secao-9 h3, .secao-9 h5 {
   font-family: 'PPEditorialOld';
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   color: var(--azul-escuro);
   line-height: 40px;
@@ -762,7 +778,7 @@ font-size: 22px;
   font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--azul-escuro);
-
+font-size: 22px;
 }
 
 
