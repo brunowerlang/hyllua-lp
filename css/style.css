@@ -231,7 +231,7 @@ margin: auto;
       align-items: center;
        overflow: hidden;
        padding: 5rem 0 !important;
-   margin-bottom: -220px;
+  
 }
 
 .sobre-imersao h5 {
@@ -270,10 +270,6 @@ z-index: 99;
   padding: 0 2rem;
 }
 
-.sobre-imersao {
-margin-bottom: -285px;
-
-}
 }
 
 @media (min-width: 992px) {
@@ -335,7 +331,8 @@ margin-bottom: -285px;
   background: url('/assets/images/tecnica/BACKGROUND DESKTOP COM TRANSPARÊNCIA.png') no-repeat top center / cover;
   position: relative;
   z-index: 7;
-  padding: 3rem;
+  padding: 4rem 0;
+  margin-top: -180px;
 }
 
 
@@ -343,10 +340,14 @@ margin-bottom: -285px;
   font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--branco);
-font-size: 20px;
-line-height: 35px;
+font-size: 18px;
+line-height: 25px;
 position: relative;
+}
 
+.tecnica ul {
+margin-top: 5rem;
+  margin-bottom: 0 !important;
 }
 
 @media (min-width: 992px) {
@@ -362,15 +363,19 @@ position: relative;
     background-repeat: no-repeat;
 }
 .tecnica li p {
-width: 84%;
+width: 82%;
 
+}
+.tecnica img {
+  max-width: 60%;
 }
 }
 
 @media (max-width: 991px) {
-  .tecnica {
 
-    padding: 15rem 0 2rem 0;
+  .tecnica {
+    padding: 10rem 0 4rem 0;
+        margin-top: -235px;
   }
   .tecnica li p::before {
     content: "";
@@ -382,6 +387,10 @@ width: 84%;
     background-image: url(/assets/images/tecnica/ÍCONE-ESTRELA.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.tecnica img {
+  max-width:80%;
 }
 }
 
@@ -449,7 +458,7 @@ margin-top: 2rem;
 
   .secao-4 .row .bullet{
         height: 490px;
-        width: 385px;
+        width: 355px;
 }
 
 
@@ -459,7 +468,7 @@ width: 100%;
     font-family: 'PPEditorialOld';
   font-weight: 700;
   color: var(--azul-escuro);
-font-size: 22px;
+font-size: 29px;
 text-align: center;
 display: flex;
 align-items: center;
@@ -467,7 +476,7 @@ justify-content: center;
 padding: 1rem 3rem;
 border-radius: 5px;
 margin-top: -50px;
-height: 150px;
+height: 120px;
 
 }
 }
