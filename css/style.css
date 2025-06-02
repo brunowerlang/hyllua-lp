@@ -544,13 +544,15 @@ height: 120px;
 padding: 8rem 0;
 }
 
+.secao-5 .esquerda img {}
+
 .secao-5 .esquerda p {
     font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--branco);
 text-transform: uppercase;
 text-align: center;
-font-size: 21px !important;
+font-size: 20px !important;
 width: 55%;
 }
 
@@ -560,7 +562,7 @@ width: 55%;
   color: var(--branco);
 text-align: center;
 font-size: 21px;
-line-height: 40px;
+line-height: 38px;
 }
 
 .secao-5 .direita img {
@@ -574,9 +576,16 @@ line-height: 40px;
   font-family: 'PPRightGothicWide';
   font-weight: 700;
   color: var(--amarelo);
-  font-size: 24px;
+  font-size: 28px;
 line-height: 35px;
-text-align: justify;
+text-align: center;
+margin-top: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  .secao-5 .direita p {
+ padding: 0 2rem;
+}
 }
 
 /* VIDEO */
@@ -590,13 +599,13 @@ text-align: justify;
 
 
 .video h3 {
-    font-size: 24px;
+    font-size: 26px;
       letter-spacing: 1px;
       font-family: 'PPRightGothicWide';
       font-weight: 400;
   background-color: var(--amarelo);
   color: var(--branco);
-  padding: 1rem 1.5rem;
+  padding: 1.5rem 1.5rem;
  display: inline-block;
   border-radius: 99px;
 
@@ -604,7 +613,7 @@ text-align: justify;
 
 .video p {
 color: var(--azul-escuro);
-  font-size: 22px;
+  font-size: 24px;
   text-align: justify;
   margin: auto;
 }
@@ -612,13 +621,13 @@ color: var(--azul-escuro);
 
 @media (min-width: 992px) {
 .video p {
-  width: 56%;
+  width: 65%;
 
 }
 }
 
 .ratio-16x9 {
-    --bs-aspect-ratio: 75%;
+    --bs-aspect-ratio: 115%;
     background: #1d1d1d;
     border-radius: 20px;
 }
@@ -643,7 +652,7 @@ color: var(--azul-escuro);
 .secao-7 {
   background: url('/assets/images/seção-7/BACKGROUND-SEÇÃO-7.jpg') no-repeat center center/cover;
   overflow: hidden;
-  padding: 8rem 0 0 0;
+  padding: 4rem 0 0 0;
 }
 
 
@@ -695,11 +704,12 @@ justify-content: center;
     font-family: 'PPRightGothicWide';
       font-weight: 400;
       color: var(--azul-escuro);
-       font-size: 26px;
+       font-size: 22px;
 }
 
 .titulo-hyllua {
   position: relative;
+  margin-bottom: 2.2rem !important;
 }
 
 
@@ -798,20 +808,20 @@ justify-content: center;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 48%;
+  height: 51%;
   background-color: var(--cinza);
   z-index: -2;
 }
 
 
 .certificado .container::after {
-        content: "";
+              content: "";
         position: absolute;
-        top: 55%;
-        left: 50%;
+        top: 53%;
+        left: 54%;
         width: 75%;
-        height: 70%;
-        border: 2px solid var(--branco);      
+        height: 75%;
+        border: 2px solid var(--branco);
         transform: translate(-50%, -50%);
         z-index: -1;
         border-radius: 30px;
@@ -824,8 +834,8 @@ justify-content: center;
 @media (min-width: 992px) {
 
   .certificado .light {
-        width: 55%;
-        margin: auto;
+        width: 87%;
+        margin: 0 auto;
   }
 }
 
@@ -834,21 +844,21 @@ justify-content: center;
 
 .certificado {
   background-color: var(--amarelo);
-  padding: 10rem 0 5rem 0 !important
+  padding: 5rem 0 5rem 0 !important
 }
 
 .certificado h3 {
   font-family: 'PPEditorialOld';
   font-weight: 700;
 color: var(--azul-escuro);
-font-size: 26px;
+font-size: 28px;
 }
 
 .certificado p {
 
     font-family: 'PPRightGothicWide';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
     color: var(--azul-escuro);
 }
 
@@ -863,7 +873,7 @@ font-size: 26px;
     background: url('/assets/images/seção-7/BACKGROUND-SEÇÃO-7.jpg') no-repeat center center/cover;
   overflow: hidden;
   
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
 @media (min-width: 992px) {
@@ -873,7 +883,9 @@ font-size: 26px;
   }
 
   .secao-9 img {
-max-width: 150%;
+position: relative;
+        max-width: 150%;
+        left: -110px;
   }
 
   .secao-9 {
@@ -887,20 +899,28 @@ max-width: 150%;
 
 
 
+.secao-9 h3 {
+
+  position: relative;
+  top: -20px;
+}
 
 .secao-9 h3, .secao-9 h5 {
   font-family: 'PPEditorialOld';
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 700;
   color: var(--azul-escuro);
-  line-height: 40px;
+  line-height: 25px;
 }
 
 .secao-9 p {
   font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--azul-escuro);
-font-size: 19px;
+font-size: 15px;
+  line-height: 20px;
+   position: relative;
+  top: -20px;
 }
 
 
