@@ -254,7 +254,7 @@ font-family: 'PPRightGothicWide';
     font-weight: 400;
 font-size: 17px;
 text-align: justify;
-line-height: 30px;
+line-height: 27px;
     color: var(--azul-escuro);
     margin: auto;
 }
@@ -263,7 +263,7 @@ line-height: 30px;
 position: relative;
 z-index: 99;
   padding: 0 3rem;
-  margin-bottom: 6rem !important;
+  margin-bottom: 5.7rem !important;
 }
 
 @media (max-width: 767px) {
@@ -288,7 +288,7 @@ z-index: 99;
 
 .btn-- {
  position: relative;
-margin-top: -80px;
+margin-top: -220px;
  z-index: 99999999999;
      margin-bottom: 5rem !important;
 }
