@@ -244,6 +244,7 @@ margin: auto;
     font-weight: 700;
     color: var(--azul-escuro);
     font-size: 18px;
+    margin-bottom: 2.5rem;
 }
 
 .sobre-imersao li p {
