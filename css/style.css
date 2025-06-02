@@ -238,12 +238,12 @@ margin: auto;
 
   border: 1px solid var(--azul-escuro);
   display: inline-flex;
-  padding: .5rem 2rem;
+  padding: 1rem 2rem;
   border-radius: 99px;
     font-family: 'PPEditorialOld';
     font-weight: 700;
     color: var(--azul-escuro);
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 2.5rem;
 }
 
@@ -312,12 +312,12 @@ z-index: 99;
 }
 
 .image-wrapper::before {
-    content: "";
+       content: "";
     position: absolute;
-    top: -113%;
-    left: -83%;
-    width: 320%;
-    height: 320%;
+    top: -89%;
+    left: -95%;
+    width: 270%;
+    height: 270%;
     background-image: url(/assets/images/sobre-imersao/ÍCONE-ESTRELA.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -347,7 +347,7 @@ position: relative;
 }
 
 .tecnica ul {
-margin-top: 5rem;
+margin-top: 4rem;
   margin-bottom: 0 !important;
 }
 
