@@ -88,7 +88,6 @@ section {
   background: url('/assets/images/hero/BACKGROUND-SEÇÃO-1.jpg') no-repeat center center/cover;
   display: flex !important;
   align-items: center;
-  min-height: 80vh;
   flex-direction: column;
     justify-content: flex-end;
 }
@@ -137,8 +136,8 @@ section {
       text-align: center;
       font-size: 12px;
       border: 1px solid rgba(255, 200, 87, 0.2); /* 40% de opacidade */
-    width: 150px;
-    height: 85px;
+    width: 145px;
+    height: 90px;
        font-family: 'PPRightGothicWide';
        font-weight: 300;
         color: var(--branco);
@@ -146,6 +145,7 @@ section {
         justify-content: center;
         align-items: center;
           position: relative;
+          line-height: 14px;
     }
 
   .btn-1 {
@@ -186,8 +186,8 @@ section {
     position: absolute;
     top: -13px;
     left: 27px;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-image: url('/assets/images/hero/ICONE-ESTRELA-CÍRCULO.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -197,7 +197,9 @@ section {
 /* SECTION 2 */
 
 .section-2 {
-
+    margin-top: -30px;
+    position: relative;
+    z-index: 222;
   background-color: var(--amarelo);
 }
 
