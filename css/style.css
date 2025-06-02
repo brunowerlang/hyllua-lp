@@ -68,7 +68,7 @@ section {
 /* HERO */
 
 .hero .logo {
-    margin: 3rem 0 2rem 0;
+    margin: 0 0 2rem 0;
   max-width: 80%;
 }
 
@@ -92,7 +92,7 @@ section {
 
 
     .fs-1 {
-      line-height:35px;
+      line-height:30px;
       font-size: 24px !important;
     }
 
@@ -109,7 +109,7 @@ section {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -132,10 +132,10 @@ section {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 1rem;
       text-align: center;
-      font-size: 14px;
-      border: 1px solid rgba(255, 200, 87, 0.4); /* 40% de opacidade */
-      width: 160px;
-      height: 100px;
+      font-size: 12px;
+      border: 1px solid rgba(255, 200, 87, 0.2); /* 40% de opacidade */
+    width: 150px;
+    height: 100px;
        font-family: 'PPRightGothicWide';
        font-weight: 300;
         color: var(--branco);
@@ -153,13 +153,13 @@ section {
   background-color: var(--amarelo);
   border-bottom: 5px solid var(--azul-escuro);
   display: inline-flex;
-  font-size: 18px;
+  font-size: 15px;
   padding: 0.5rem 2rem;
   color: var(--azul-escuro);
   text-decoration: none;
   border-radius: 10px;
   transform: translateY(0); /* Estado inicial */
-  margin-bottom: 2rem !important;
+
 }
 
 .btn-1:hover {
