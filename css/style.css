@@ -132,7 +132,7 @@ section {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 1rem;
       text-align: center;
-      font-size: 12px;
+      font-size: 14px;
       border: 1px solid rgba(255, 200, 87, 0.2); /* 40% de opacidade */
     width: 144px;
     height: 89px;
@@ -181,12 +181,12 @@ section {
 
 
     .bullet-box::before {
-   content: "";
+       content: "";
     position: absolute;
-    top: -15px;
-    left: 27px;
-    width: 30px;
-    height: 30px;
+    top: -16px;
+    left: 16px;
+    width: 33px;
+    height: 33px;
     background-image: url('/assets/images/hero/ICONE-ESTRELA-CÍRCULO.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -332,11 +332,12 @@ margin-bottom: -285px;
 /* TECNICA */
 
 .tecnica {
-    background: url('/assets/images/tecnica/BACKGROUND DESKTOP COM TRANSPARÊNCIA.png') no-repeat center center / cover;
-position: relative;
-z-index: 1;
-padding: 10rem 0 2rem 0;
+  background: url('/assets/images/tecnica/BACKGROUND DESKTOP COM TRANSPARÊNCIA.png') no-repeat top center / cover;
+  position: relative;
+  z-index: 7;
+  padding: 3rem;
 }
+
 
 .tecnica li p {
   font-family: 'PPRightGothicWide';
@@ -552,6 +553,12 @@ color: var(--azul-escuro);
   width: 56%;
 
 }
+}
+
+.ratio-16x9 {
+    --bs-aspect-ratio: 100%;
+    background: #1d1d1d;
+    border-radius: 20px;
 }
 
 /* FAIXA */
