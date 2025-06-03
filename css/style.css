@@ -355,7 +355,7 @@ padding: 5rem 0;
 
 @media (max-width: 767px) {
 .tecnica {
-  background: url('/assets/images/tecnica/BACKGROUND\ MOBILE\ SEÇÃO\ 3.png') no-repeat top center / cover;
+  background: url('/assets/images/tecnica/BACKGROUND-MOBILE.webp') no-repeat top center / cover;
   position: relative;
   z-index: 7;
 
@@ -785,7 +785,7 @@ justify-content: flex-start;
     left: -86px;
   width: 800px; /* ajuste conforme necessário */
   height: 800px;
-  background-image: url('/assets/images/seção-7/Light.png'); /* caminho do seu flash */
+  background-image: url('/assets/images/seção-7/Light.webp'); /* caminho do seu flash */
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 2;
