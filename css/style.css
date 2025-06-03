@@ -806,6 +806,17 @@ top: -40px;
 
 /* SEÇÃO 7 */
 
+@media (max-width: 767px) {
+  .secao-7 .flash-container img {
+        max-width: 150%;
+        margin-left: -90px;
+}
+
+.secao-7 p {
+  font-size: 18px !important;
+}
+}
+
 .secao-7 {
   background: #dfe0e2;
   overflow: hidden;
@@ -836,7 +847,8 @@ top: -40px;
 }
 
 .secao-7 .flash-container img {
-  max-width: 130%;
+max-width: 170%;
+        margin-left: -180px;
 }
 
 .titulo-hyllua img {
