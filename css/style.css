@@ -389,7 +389,7 @@ padding: 5rem 0;
 
 @media (max-width: 767px) {
 .tecnica {
-  background: url('/assets/images/tecnica/background-mobile.webp') no-repeat top center / cover;
+  background: url('/assets/images/tecnica/background-tecnica-mobile.webp') no-repeat top center / cover;
   position: relative;
   z-index: 7;
 
