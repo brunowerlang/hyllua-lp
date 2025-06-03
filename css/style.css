@@ -458,6 +458,7 @@ margin-top: 2rem;
 }
 
 .tecnica li p {
+  position: relative;
 
       margin-bottom: 5rem !important;
 }
@@ -474,7 +475,7 @@ margin-top: 2rem;
     top: -50px;
     width: 40px;
     height: 40px;
-    background-image: url(/assets/images/tecnica/ÍCONE-ESTRELA.png);
+    background-image: url('/assets/images/tecnica/ÍCONE-ESTRELA.webp');
     background-size: contain;
     background-repeat: no-repeat;
 }
