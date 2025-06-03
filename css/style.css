@@ -853,17 +853,22 @@ background-color: #dfe0e2;
 
 
 .certificado .container::after {
-        content: "";
+          content: "";
         position: absolute;
-        top: 52%;
+        top: 49%;
         left: 50%;
         width: 95%;
-        height: 62%;
+        height: 79%;
         border: 2px solid var(--branco);
         transform: translate(-50%, -50%);
         z-index: -1;
         border-radius: 30px;
 
+}
+
+.certificado img {
+
+  margin-bottom: 0 !important;
 }
 }
 
@@ -965,6 +970,10 @@ position: relative;
   .secao-9 {
     overflow: hidden;
   }
+
+  .secao-9 p {
+  padding: 0 5rem;
+}
 }
 
 .secao-9 .btn-1 {
@@ -1001,7 +1010,7 @@ font-size: 16px;
   line-height: 25px;
    position: relative;
   top: -20px;
-  padding: 0 5rem;
+
 }
 
 
