@@ -1084,6 +1084,22 @@ font-size: 30px;
 
 /* SEÇÃO 9 */
 
+@media (max-width: 767px) {
+  .secao-9 img {
+margin-left: -50% !important;
+    max-width: 200% !important;
+  }
+
+  .secao-9 p {
+  font-size: 17px !important;
+}
+
+.secao-9 h3 {
+font-size: 24px !important;
+}
+
+}
+
 .secao-9 {
     background: #dfe0e2;
   overflow: hidden;
