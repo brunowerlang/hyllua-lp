@@ -608,6 +608,36 @@ font-size: 22px;
 
 /* SECÇÃO 5 */
 
+@media (max-width: 767px) {
+.secao-5 .esquerda img {
+
+max-width: 80% !important;
+}
+
+.secao-5 .esquerda p {
+
+  width: 80% !important;
+}
+
+.secao-5 .direita p {
+
+font-size: 17px !important;
+
+}
+
+.secao-5 .direita img {
+    max-width: 7% !important;
+}
+
+.secao-5 {
+ background: url('/assets/images/seção-5/BACKGROUND-SEÇÃO-5.webp') no-repeat left center/cover !important;
+        background-position: 40% center !important;
+
+}
+
+}
+
+
 .secao-5 {
   background: url('/assets/images/seção-5/BACKGROUND-SEÇÃO-5.webp') no-repeat center center/cover;
       display: flex;
