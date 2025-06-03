@@ -297,7 +297,7 @@ z-index: 99;
 
 .sobre-imersao {
 
-  padding: 3rem 0 !important;
+  padding: 3rem 0 5rem 0 !important;
 }
 
 .sobre-imersao h5 {
@@ -306,7 +306,10 @@ z-index: 99;
 
 }
 
-
+.btn-- {
+white-space: nowrap;
+margin-top: -50px !important;
+}
 }
 
 @media (min-width: 992px) {
@@ -461,7 +464,7 @@ margin-top: 2rem;
 
   .tecnica {
         padding: 7rem 0 3rem 0;
-        margin-top: -200px;
+        margin-top: -130px;
                 height: 100%;
   }
   .tecnica li p::before {
