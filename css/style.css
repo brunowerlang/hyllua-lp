@@ -504,7 +504,7 @@ margin-top: -50px;
   font-weight: 400;
   color: var(--azul-escuro);
 font-size: 18px;
-line-height: 30px;
+line-height: 32px;
 margin-top: 1.5rem;
 
 
@@ -522,7 +522,7 @@ margin-top: 1.5rem;
 @media (min-width: 1220px) {
 
   .secao-4 .row .bullet{
-        height: 350px;
+        height: 365px;
         width: 360px;
         position: relative;
         top: -60px;
@@ -532,6 +532,11 @@ margin-top: 1.5rem;
   .secao-4 .bullets {
     padding-top: 7rem !important;
   }
+
+
+.mb-img {
+  margin-bottom: 4rem !important;
+}
 
 
 
