@@ -741,7 +741,7 @@ top: -40px;
 
 
 .secao-7 li {
-justify-content: center;
+justify-content: flex-start;
   display: flex;
 }
 
