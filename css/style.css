@@ -724,7 +724,7 @@ top: -40px;
 @media (min-width: 992px) {
 .secao-7 ul {
 
- padding: 0 5.5rem;
+ padding: 0 5rem;
   margin: auto;
 }
 
@@ -749,7 +749,7 @@ justify-content: center;
       font-family: 'PPRightGothicWide';
       font-weight: 400;
   color: var(--azul-escuro);
-  font-size: 15px;
+  font-size: 16px;
   
   margin-bottom: 0 !important;
 }
@@ -889,7 +889,7 @@ justify-content: center;
 @media (min-width: 992px) {
 
   .certificado .light {
-        width: 87%;
+        padding: 0 2rem;
         margin: 0 auto;
   }
 }
@@ -913,7 +913,7 @@ font-size: 28px;
 
     font-family: 'PPRightGothicWide';
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     color: var(--azul-escuro);
 }
 
