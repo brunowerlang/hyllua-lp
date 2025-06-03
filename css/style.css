@@ -818,6 +818,12 @@ justify-content: flex-start;
 
 /* CERTIFICADO */
 
+@media (min-width: 1200px) {
+    .certificado .container {
+        max-width: 90%;
+    }
+  }
+
 .certificado {
   position: relative;
   z-index: 1;
@@ -834,7 +840,10 @@ justify-content: flex-start;
   left: 0;
   width: 101%;
   height: 40%;
-  background-color: var(--cinza);
+ background-image: url('/assets/images/seção-7/BACKGROUND-SEÇÃO-7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   z-index: -2;
 }
 
@@ -864,7 +873,10 @@ justify-content: flex-start;
   left: 0;
   width: 100%;
   height: 51%;
-  background-color: #dedde3;
+  background-image: url('/assets/images/seção-7/BACKGROUND-SEÇÃO-7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   z-index: -2;
 }
 
@@ -906,7 +918,7 @@ justify-content: flex-start;
   font-family: 'PPEditorialOld';
   font-weight: 700;
 color: var(--azul-escuro);
-font-size: 28px;
+font-size: 30px;
     position: relative;
     top: 11px;
 }
@@ -915,7 +927,7 @@ font-size: 28px;
 
     font-family: 'PPRightGothicWide';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--azul-escuro);
     line-height: 25px;
     position: relative;
