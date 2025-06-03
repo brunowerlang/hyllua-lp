@@ -117,8 +117,8 @@ section {
 
     .bullets {
       display: flex;
-      gap: 3rem;
-         justify-content: center;
+      gap: 1.5rem;
+         justify-content: center !important;
          align-items: center;
     }
 
@@ -451,7 +451,7 @@ margin-top: 2rem;
 /* SEÇÃO 4 NOVA HARMONIZAÇÃO */
 
 .secao-4 {
-  padding: 5rem 0 !important;
+  padding: 4rem 0 0 0 !important;
     background: url('/assets/images/seção-4/BACKGROUND\ SEÇÃO\ 4.jpg') no-repeat top center / cover;
 }
 
@@ -470,10 +470,7 @@ position: relative;
   background-color: transparent;
 }
 
-.secao-4 .row.bullets {
-padding-top: 5rem !important;
 
-}
 
 .secao-4 .row .bullet{
     border: 1px solid var(--azul-escuro);
@@ -506,9 +503,9 @@ margin-top: -50px;
     font-family: 'PPRightGothicWide';
   font-weight: 400;
   color: var(--azul-escuro);
-font-size: 17px;
-line-height: 35px;
-margin-top: 1rem;
+font-size: 18px;
+line-height: 30px;
+margin-top: 1.5rem;
 
 
 }
@@ -525,9 +522,18 @@ margin-top: 1rem;
 @media (min-width: 1220px) {
 
   .secao-4 .row .bullet{
-        height: 400px;
-        width: 355px;
+        height: 350px;
+        width: 360px;
+        position: relative;
+        top: -60px;
 }
+
+
+  .secao-4 .bullets {
+    padding-top: 7rem !important;
+  }
+
+
 
 
 .secao-4 h5 {
@@ -541,10 +547,9 @@ margin-top: 1rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 1rem 2rem;
         border-radius: 5px;
         margin-top: -70px;
-        height: 120px;
+        height: 115px;
 }
 }
 
