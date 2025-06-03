@@ -627,7 +627,7 @@ bottom: -20px;
 
 .video {
   background: url('/assets/images/video/BACKGROUND-SEÇÃO-6.jpg') no-repeat center center/cover;
-  padding: 5.5rem 0 !important;
+  padding: 3rem 0 !important;
 }
 
 
@@ -647,10 +647,10 @@ bottom: -20px;
 
 .video p {
 color: var(--azul-escuro);
-  font-size: 20px;
+  font-size: 22px;
   text-align: justify;
   margin: auto;
-  line-height: 28px;
+  line-height: 30px;
   position: relative;
   top: -20px;
 }
@@ -665,9 +665,10 @@ color: var(--azul-escuro);
 
 
 
+
+
 .ratio-16x9 {
-      --bs-aspect-ratio: 75%;
-    background: #f4f4f4;
+      --bs-aspect-ratio: 100%;
     border-radius: 20px;
 }
 
