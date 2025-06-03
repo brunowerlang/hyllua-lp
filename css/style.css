@@ -885,7 +885,7 @@ justify-content: flex-start;
         content: "";
         position: absolute;
         top: 50%;
-        left: 55%;
+        left: 53%;
         width: 80%;
         height: 70%;
         border: 2px solid var(--branco);
