@@ -724,7 +724,7 @@ top: -40px;
 @media (min-width: 992px) {
 .secao-7 ul {
 
- padding: 0 5rem;
+ padding: 0 6rem;
   margin: auto;
 }
 
@@ -749,7 +749,7 @@ justify-content: center;
       font-family: 'PPRightGothicWide';
       font-weight: 400;
   color: var(--azul-escuro);
-  font-size: 16px;
+  font-size: 14px;
   
   margin-bottom: 0 !important;
 }
