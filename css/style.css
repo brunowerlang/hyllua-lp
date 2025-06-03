@@ -631,7 +631,6 @@ bottom: -20px;
 }
 
 
-
 .video h3 {
     font-size: 22px;
       letter-spacing: 1px;
@@ -642,7 +641,7 @@ bottom: -20px;
   padding: 1rem 1.5rem;
  display: inline-block;
   border-radius: 99px;
-
+margin-bottom: 4rem !important;
 }
 
 .video p {
@@ -651,16 +650,27 @@ color: var(--azul-escuro);
   text-align: justify;
   margin: auto;
   line-height: 30px;
-  position: relative;
-  top: -20px;
 }
 
 
 @media (min-width: 992px) {
 .video p {
-  width: 65%;
-
+          padding: 0 5.5rem;
+position: relative;
+top: -40px;
 }
+
+
+.video-esq {
+  position: relative;
+  right: -50px;
+}
+
+.video-dir {
+  position: relative;
+  left: -50px;
+}
+
 }
 
 
