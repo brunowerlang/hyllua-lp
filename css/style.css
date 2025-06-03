@@ -808,8 +808,9 @@ top: -40px;
 
 @media (max-width: 767px) {
   .secao-7 .flash-container img {
-        max-width: 170%;
-        margin-left: -140px;
+max-width: 170%;
+        margin-left: -137px;
+        margin-top: -52px;
 }
 
 .secao-7 p {
