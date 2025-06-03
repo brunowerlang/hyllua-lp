@@ -94,7 +94,7 @@ section {
 
 
 .hero {
-  background: url('/assets/images/hero/BACKGROUND-SEÇÃO-1.webp') no-repeat center center/cover;
+  background: url('/assets/images/hero/background-hero.webp') no-repeat center center/cover;
   display: flex !important;
   align-items: center;
   flex-direction: column;
@@ -201,7 +201,7 @@ section {
     left: 16px;
     width: 33px;
     height: 33px;
-    background-image: url('/assets/images/hero/ICONE-ESTRELA-CÍRCULO.webp');
+    background-image: url('/assets/images/hero/icone-estrela.webp');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -367,7 +367,7 @@ margin-top: -195px;
     left: -81%;
     width: 255%;
     height: 255%;
-    background-image: url('/assets/images/sobre-imersao/ÍCONE-ESTRELA.webp');
+    background-image: url('/assets/images/sobre-imersao/icone-estrela.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -379,7 +379,7 @@ margin-top: -195px;
 
 .tecnica {
  display: flex !important;
-    background: url('/assets/images/tecnica/BACKGROUND\ DESKTOP\ COM\ TRANSPARÊNCIA.webp') no-repeat top center / cover;
+    background: url('/assets/images/tecnica/tecnica-background-desktop.webp') no-repeat top center / cover;
 padding: 5rem 0;
     align-items: center;
     position: relative;
@@ -389,7 +389,7 @@ padding: 5rem 0;
 
 @media (max-width: 767px) {
 .tecnica {
-  background: url('/assets/images/tecnica/BACKGROUND-MOBILE.webp') no-repeat top center / cover;
+  background: url('/assets/images/tecnica/background-mobile.webp') no-repeat top center / cover;
   position: relative;
   z-index: 7;
 
@@ -425,7 +425,7 @@ position: relative;
         top: -6px;
         width: 37px;
         height: 37px;
-        background-image: url( '/assets/images/tecnica/ÍCONE-ESTRELA.webp');
+        background-image: url( '/assets/images/tecnica/icone-estrela.webp');
         background-size: contain;
         background-repeat: no-repeat;
 }
@@ -475,7 +475,7 @@ padding: 0 0 0 3rem;
     top: -9px;
     width: 40px;
     height: 40px;
-    background-image: url('/assets/images/tecnica/ÍCONE-ESTRELA.webp');
+    background-image: url('/assets/images/tecnica/icone-estrela.webp');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -630,7 +630,7 @@ font-size: 17px !important;
 }
 
 .secao-5 {
- background: url('/assets/images/seção-5/BACKGROUND-SEÇÃO-5.webp') no-repeat left center/cover !important;
+ background: url('/assets/images/seção-5/background-secao5.webp') no-repeat left center/cover !important;
         background-position: 40% center !important;
 
 }
@@ -639,7 +639,7 @@ font-size: 17px !important;
 
 
 .secao-5 {
-  background: url('/assets/images/seção-5/BACKGROUND-SEÇÃO-5.webp') no-repeat center center/cover;
+  background: url('/assets/images/seção-5/background-secao5.webp') no-repeat center center/cover;
       display: flex;
       align-items: center;
 padding: 6rem 0;
@@ -726,7 +726,7 @@ bottom: -20px;
 
 
 .video {
-  background: url('/assets/images/video/BACKGROUND-SEÇÃO-6.webp') no-repeat center center/cover;
+  background: url('/assets/images/video/background-video.webp') no-repeat center center/cover;
   padding: 3rem 0 ;
 }
 
