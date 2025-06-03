@@ -1099,7 +1099,8 @@ font-size: 24px !important;
 }
 
 .secao-9 {
-  padding: 1rem 0 !important;
+        padding: 1rem 0 4rem 0 !important;
+
 }
 
 .secao-9 .btn-1 {
