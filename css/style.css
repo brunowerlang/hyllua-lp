@@ -953,12 +953,12 @@ background-color: #dfe0e2;
 
 
 .certificado .container::after {
-          content: "";
+      content: "";
         position: absolute;
-        top: 49%;
+        top: 51%;
         left: 50%;
         width: 95%;
-        height: 79%;
+        height: 81%;
         border: 2px solid var(--branco);
         transform: translate(-50%, -50%);
         z-index: -1;
@@ -967,9 +967,22 @@ background-color: #dfe0e2;
 }
 
 .certificado img {
-
+        max-width: 110%;
+        margin-left: -15px;
   margin-bottom: 0 !important;
 }
+
+
+.certificado h3 {
+  font-size: 24px !important;
+        padding: 0 .5rem !important;
+}
+
+.certificado p {
+        padding: 0 1rem !important;
+  font-size: 17px !important;
+}
+
 }
 
 
