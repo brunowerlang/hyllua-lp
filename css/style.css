@@ -228,7 +228,7 @@ margin: auto;
 
 
 .sobre-imersao {
-  background: url('/assets/images/sobre-imersao/BACKGROUND-SEÇÃO-2.jpg') no-repeat center center/cover;
+  background: #e4e4e6;
       display: flex;
       align-items: center;
        overflow: hidden;
