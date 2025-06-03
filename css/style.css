@@ -1098,6 +1098,14 @@ margin-left: -50% !important;
 font-size: 24px !important;
 }
 
+.secao-9 {
+  padding: 1rem 0 !important;
+}
+
+.secao-9 .btn-1 {
+  margin-top: 0 !important;
+}
+
 }
 
 .secao-9 {
