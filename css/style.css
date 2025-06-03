@@ -808,8 +808,8 @@ top: -40px;
 
 @media (max-width: 767px) {
   .secao-7 .flash-container img {
-        max-width: 150%;
-        margin-left: -90px;
+        max-width: 170%;
+        margin-left: -140px;
 }
 
 .secao-7 p {
@@ -846,10 +846,11 @@ top: -40px;
   margin: auto;
 }
 
-.secao-7 .flash-container img {
-max-width: 170%;
-        margin-left: -180px;
-}
+    .secao-7 .flash-container img {
+        max-width: 222%;
+        margin-left: -286px;
+    }
+
 
 .titulo-hyllua img {
   position: relative;
