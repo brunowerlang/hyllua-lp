@@ -74,6 +74,13 @@ section {
   margin: 3rem 0 !important;
   max-width: 100% !important;
 }
+
+
+ .titulo {
+   
+      font-size: 22px !important;
+    }
+
 }
 
 
@@ -94,11 +101,12 @@ section {
     justify-content: flex-end;
 }
 
-
-    .fs-1 {
+@media (min-width: 768px) {
+    .titulo {
       line-height:30px;
       font-size: 24px !important;
     }
+  }
 
     .hero p {
        font-size: 14px;
@@ -204,7 +212,7 @@ section {
 @media (max-width: 767px) {
 .section-2 p {
 
-  font-size: 20px;
+  font-size: 19px !important;
 }
 
 }
@@ -218,7 +226,7 @@ section {
 margin: auto;
   color: var(--branco);
   text-align: center;
-  font-size: 26px !important;
+  font-size: 26px;
   font-family: 'PPRightGothicWide';
   font-weight: 400;
   letter-spacing: -.5px;
@@ -286,6 +294,18 @@ position: relative;
 z-index: 99;
   padding: 0 2rem;
 }
+
+.sobre-imersao {
+
+  padding: 3rem 0 !important;
+}
+
+.sobre-imersao h5 {
+        font-size: 18px;
+        white-space: nowrap;
+
+}
+
 
 }
 
