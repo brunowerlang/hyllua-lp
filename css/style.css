@@ -460,6 +460,7 @@ margin-top: 2rem;
   position: relative;
 padding: 0 0 0 3rem;
       margin-bottom: 5rem !important;
+              font-size: 18px;
 }
 
   .tecnica {
@@ -555,6 +556,16 @@ margin-top: 1.5rem;
    width: 90%;
    margin: 2rem auto;
 }
+
+.bullets {
+
+  padding-top: 0rem !important;
+}
+
+.secao-4 h5 {
+font-size: 22px;
+}
+ 
 }
 
 @media (min-width: 1220px) {
