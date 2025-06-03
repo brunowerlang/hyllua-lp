@@ -621,7 +621,6 @@ bottom: -20px;
 
 .video {
   background: url('/assets/images/video/BACKGROUND-SEÇÃO-6.jpg') no-repeat center center/cover;
-  padding: 13rem 0 !important;
 }
 
 
@@ -654,8 +653,14 @@ color: var(--azul-escuro);
 }
 }
 
+.icon-estrela {
+
+  position: relative;
+  bottom: -15px;
+}
+
 .ratio-16x9 {
-    --bs-aspect-ratio: 115%;
+    --bs-aspect-ratio: 100%;
     background: #1d1d1d;
     border-radius: 20px;
 }
