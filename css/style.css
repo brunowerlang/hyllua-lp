@@ -673,18 +673,19 @@ top: -40px;
 
 }
 
+@media (max-width: 991px) {
 .ratio::before {
     display: block;
     padding-top: 36rem;
     content: "";
 }
 
-
+}
 
 
 
 .ratio-16x9 {
-
+      --bs-aspect-ratio: 100%;
     border-radius: 20px;
 }
 
